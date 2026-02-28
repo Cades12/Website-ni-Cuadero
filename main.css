@@ -1,0 +1,52 @@
+body, html {
+margin:0;
+padding:0;
+font-family:'Segoe UI',sans-serif;
+background:#000;
+color:#fff;
+}
+
+.hero {
+height:100vh;
+background:url('https://upload.wikimedia.org/wikipedia/commons/3/34/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg') center/cover no-repeat;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero-text {
+background:rgba(0,0,0,0.7);
+padding:40px;
+border-radius:10px;
+}
+
+.hero h1 { font-size:60px; margin:0; }
+.hero h2 { font-size:35px; margin-top:10px; }
+.hero h3 { font-size:25px; margin-top:5px; }
+
+.timeline { padding:60px 10%; }
+
+.section {
+margin-bottom:40px;
+border-bottom:1px solid #333;
+padding-bottom:20px;
+}
+
+.section-title { cursor:pointer; transition:0.3s; }
+.section-title:hover { color:#f0c040; }
+
+.section-content {
+max-height:0;
+overflow:hidden;
+transition:max-height 0.6s ease;
+}
+
+.section-content img {
+width:100%;
+margin-top:20px;
+border-radius:10px;
+}
+
+.text h3 { margin-top:25px; color:#f0c040; }
+.text p { line-height:1.8; color:#ccc; }
